@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: url(https://i.postimg.cc/nhhg60tJ/tom-gainor-vigd-QSTCk-VU-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+  }
+  
+  form {
+    display:block;
+    position:relative;
+    width:500px;
+    height: 400px;
+    background:#fceaee;
+    margin: 50px auto;
+    padding:50px;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  .input {
+    margin: 45px 0 25px;
+    position: relative;
+  }
+  
+  .input input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #E5EBE6;
+    color: #818181;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px 3px;
+    width: 100%;
+  }
+  
+  .input label {
+    color: #212121;
+    display: block;
+    position: absolute;
+    top: -20px;
+  
+  }
+  .input input:not(:focus):placeholder-shown + label {
+    color: #818181;
+    top: 10px;
+  }
+  
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  button {
+    border: 2px solid #E5EBE6;
+    background-color: transparent;
+    cursor: pointer;
+    float: right;
+    height: 40px;
+    width: 124px;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    border: none;
+    background-color: green;
+  }
+  
+  
