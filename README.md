@@ -1,4 +1,4 @@
 # Frosted-Glass-Effect
 [Website Link](https://css-frosted-glass-effect.netlify.app/)
 
-![Image](https://user-images.githubusercontent.com/77884951/221661579-f77c9c4f-3113-4ca8-90d5-92505cb43d93.png)
+![Image](https://user-images.githubusercontent.com/77884951/221789356-e1b5afe9-4ff2-49b7-a036-e0bec7f0d7cf.png)
